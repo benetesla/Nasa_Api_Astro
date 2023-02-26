@@ -6,7 +6,9 @@ const Home = () => {
         <div className="home">
             <div className="home__container">
                 <h1 className="home__title">Welcome to the NASA API</h1>
-                <p className="home__text">This is a simple app that uses the NASA API to display images from the Mars Rover Curiosity. You can also view the latest images from the Hubble Telescope.</p>
+                <p className="home__text">This is a simple app that uses the NASA API
+                    to display images from satuns lapetus and other planets.
+                </p>
                 <Link to="/nasa">
                     <button className="home__button">View Images</button>
                 </Link>

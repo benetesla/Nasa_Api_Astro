@@ -5,19 +5,33 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 0.5rem;
     .navbar__logo{
         font-size: 1.5rem;
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 0.1rem;
+        color: #030303;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .navbar__logo--span{
+        color: #520863;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .navbar__logo:hover{
+        color: #520863;
+    }
+    .navbar__logo--span:hover{
+        color: #030303;
     }
     
     i{
-        font-size: 1.5rem;
+        font-size: 2.5rem;
         cursor: pointer;
-        color: #500bd1;
+        color: #030303;
     }
     i:hover{
-        color: #000;
+        color: #fff;
+       
     }
 }

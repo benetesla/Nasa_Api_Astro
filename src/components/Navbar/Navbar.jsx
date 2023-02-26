@@ -6,11 +6,13 @@ const Navbar = () => {
         <div className="navbar">
             <Link to="/">
                 <i className="fas fa-home"></i>
-               
+
             </Link>
-            <Link to="/nasa">
+            <h1 className="navbar__logo">
+                Astra<span className="navbar__logo--span">TUS</span>
+            </h1>
+            <Link to="https://api.nasa.gov/">
                 <i className="fas fa-rocket"></i>
-               
             </Link>
         </div>
     )
