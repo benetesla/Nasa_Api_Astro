@@ -20,13 +20,15 @@
         background: linear-gradient(145deg, #f0f0f0, #cacaca);
         box-shadow: 20px 20px 60px #bebebe,
             -20px -20px 60px #ffffff;
-        color: #000;
+        color: #131111;
         border-radius: 5px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
         img {
             width: 100%;
             margin-bottom: 20px;
+            border-radius:50px;
         }
         img:hover {
             transform: scale(0.8);
@@ -45,7 +47,7 @@
 
         .link {
             text-decoration: none;
-            color: #000;
+            color: #2b2525;
             font-size: 1rem;
             margin-bottom: 20px;
         }
@@ -80,6 +82,7 @@
             img {
                 width: 80%;
                 margin-bottom: 20px;
+                border-radius:50px;
                 
             }
             img:hover {

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './Nasa.scss'
+import Navbar from '../Navbar/Navbar'
 const Nasa = () => {
     const [nasa, setNasa] = useState(null)
 
@@ -11,26 +12,33 @@ const Nasa = () => {
             setNasa(data)
         }
     }, [])
-    if (!nasa) return <div>Loading...</div>
+    if (!nasa) return <div>
+        <i className="fas fa-rocket"></i>
+        <h1>Loading...</h1>
+    </div>
     return (
-        <div className='container'>
-            <div className='card'>
-                <img
-                    src={nasa.url}
-                    alt={nasa.title}
-                    className='img-fluid'
-                />
-                <div className='card-body'>
-                    <h2 className='card-title'>{nasa.title}</h2>
-                    <p className='card-text'>{nasa.explanation}</p>
-                    <p className='card-text'>{nasa.date}</p>
-                    <p className='card-text'>{nasa.media_type}</p>
-                    <p className='card-text'>{nasa.service_version}</p>
+        <>
+            <Navbar />
+            <div className='container'>
+                <div className='card'>
+                    <img
+                        src={nasa.url}
+                        alt={nasa.title}
+                        className='img-fluid'
+                    />
+                    <div className='card-body'>
+                        <h2 className='card-title'>{nasa.title}</h2>
+                        <p className='card-text'>{nasa.explanation}</p>
+                        <p className='card-text'>{nasa.date}</p>
+                        <p className='card-text'>{nasa.media_type}</p>
+                        <p className='card-text'>{nasa.service_version}</p>
+                    </div>
+
                 </div>
 
             </div>
-    
-        </div>
+        </>
+
     )
 }
 
