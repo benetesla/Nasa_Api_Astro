@@ -28,6 +28,10 @@
             width: 100%;
             margin-bottom: 20px;
         }
+        img:hover {
+            transform: scale(0.8);
+            transition: 0.5s ease-in-out;
+        }
 
         .title {
             font-size: 1.5rem;
@@ -50,8 +54,19 @@
 
 @media screen and (max-width: 768px) {
     .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius:5px;
+        background: linear-gradient(145deg, #cacaca, #f0f0f0);
+        box-shadow: 20px 20px 60px #bebebe,
+            -20px -20px 60px #ffffff;
+        color: white;
+        font-size: calc(10px + 2vmin);
+        text-align: center;
         .card {
-            width: 100%;
+            width: 70%;
             max-width: 500px;
             margin: 20px;
             padding: 20px;
@@ -62,6 +77,29 @@
             color: #000;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            img {
+                width: 80%;
+                margin-bottom: 20px;
+                
+            }
+            img:hover {
+                transform: scale(1.1);
+                transition: 0.5s;
+            }
+            .title {
+                font-size: 1.5rem;
+                margin-bottom: 20px;
+            }
+            .description {
+                font-size: 1rem;
+                margin-bottom: 20px;
+            }
+            .link {
+                text-decoration: none;
+                color: #000;
+                font-size: 1rem;
+                margin-bottom: 20px;
+            }
         }
     }
 }
