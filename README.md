@@ -1,12 +1,7 @@
-
-# NASA ASTRO
-API DA NASA
-
-
-
-
-
-
+# NASA ASTRO API
+Aplicação utilizando a api da nasa.
+Nesta aplicação temos um frontend utilizando o Sass como folha de estilo e dois Hooks do react.
+Use State para controlar o estado da aplicação e o use Effect responsável por realizar o fetch na nossa api.
 
 
 ## Autores
@@ -18,16 +13,22 @@ API DA NASA
 
 **Front-end:**
 ![JS](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![css](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+
 ## Instalação
 
 Clone este projeto ou faça download!!
 
 ```bash
-  git clone https://github.com/benetesla/Gerador_De_Cores.git
+  git clone https://github.com/benetesla/nasa-api-astro.git
+  npm install
+  npm start
 ```
-    
+ ## Link para  lista de apis
+
+- [@NASA APIS](https://api.nasa.gov/)
+
 ## License
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
