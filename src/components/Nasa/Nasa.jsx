@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-
+import './Nasa.scss'
 const Nasa = () => {
     const [nasa, setNasa] = useState(null)
 
